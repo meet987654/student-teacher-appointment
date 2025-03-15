@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Admin Dashboard</h1>
+    <h2>Add Teacher</h2>
+    <input type="text" id="teacher-name" placeholder="Name">
+    <input type="text" id="teacher-department" placeholder="Department">
+    <input type="text" id="teacher-subject" placeholder="Subject">
+    <button onclick="addTeacher()">Add Teacher</button>
+
+    <h2>Teachers List</h2>
+    <ul id="teachers-list"></ul>
+  </div>
+  <script src="firebase-config.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
