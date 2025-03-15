@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher Dashboard</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Teacher Dashboard</h1>
+    <h2>Schedule Appointment</h2>
+    <input type="datetime-local" id="appointment-time">
+    <button onclick="scheduleAppointment()">Schedule</button>
+
+    <h2>Appointments</h2>
+    <ul id="appointments-list"></ul>
+  </div>
+  <script src="firebase-config.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
